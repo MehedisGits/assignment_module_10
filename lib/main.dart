@@ -48,7 +48,7 @@ class GreetingPage extends StatelessWidget {
             //image
             Image.asset(
                 'assets/img/ss.jpg',
-            height: 200, width: 200,
+              height: 300, width: 300,
             ),
 
             SizedBox(height: 20), // Space between image and button
@@ -66,7 +66,7 @@ class GreetingPage extends StatelessWidget {
                   ),
                 );
               },
-              child: Text('Press Me'),
+              child: const Text('Press Me'),
             ),
           ],
         ),
